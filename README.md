@@ -1,8 +1,8 @@
 > UZ801 firmware update
 
 1. Download this two files
-- Rootfs:
-- Firmware: 
+- Rootfs: https://github.com/xiv3r/uz801-debian-bullseye/releases/download/debian/debian.zip
+- Firmware: https://github.com/xiv3r/uz801-debian-bullseye/releases/download/debian/base-generic.zip
 
 2. Unpack the two .zip files
 
