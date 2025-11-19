@@ -102,3 +102,12 @@ echo deb http://deb.debian.org/debian bullseye-updates main contrib non-free >> 
 apt update
 apt install sudo nano git wget -y
 ```
+
+# RNDIS
+> Replace adb with rndis
+```
+git clone https://github.com/xiv3r/uz801-debian-bullseye.git
+cd uz801-debian-bullseye
+chmod +x install.sh
+sudo bash install.sh
+```
