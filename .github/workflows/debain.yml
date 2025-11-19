@@ -17,7 +17,10 @@ jobs:
 
     - name: Download files
       run: |
-       wget
+       mkdir -p downloads
+       cd downloads
+       wget https://github.com/OpenStick/OpenStick/releases/download/v1/base-generic.zip
+       wget https://github.com/OpenStick/OpenStick/releases/download/v1/debian.zip
         
     - name: Determine release tag
       id: get_tag
